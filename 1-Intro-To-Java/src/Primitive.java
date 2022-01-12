@@ -1,5 +1,3 @@
-package com.kunal;
-
 public class Primitive {
     public static void main(String[] args) {
         int RollNo = 1;
@@ -8,6 +6,5 @@ public class Primitive {
         double largedecimalnumbers = 1.12341841234;
         long largeInteger = 3455324513241L;
         boolean check = true;
-
     }
 }
