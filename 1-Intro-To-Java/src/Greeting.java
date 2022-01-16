@@ -7,5 +7,6 @@ public class Greeting {
         String name = input.nextLine();
         
         System.out.println("Weclome " + name);
+        input.close();
     }
 }

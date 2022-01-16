@@ -10,5 +10,7 @@ public class SimpleInterest {
         float t = input.nextFloat();
         float ans = (p*r*t)/100;
         System.out.println("The Simple Interest is "+ ans);
+        input.close();
     }
+    
 }

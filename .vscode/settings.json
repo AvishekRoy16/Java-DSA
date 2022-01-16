@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "1-Intro-To-Programming/First/src/com/kunal",
+        "Conditionals-Loops/src",
         "1-Intro-To-Java/src",
-        "Conditionals-Loops/src"
+        "3-Functions/src"
     ]
 }

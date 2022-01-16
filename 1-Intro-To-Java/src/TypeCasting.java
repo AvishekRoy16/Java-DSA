@@ -14,5 +14,6 @@ public class TypeCasting {
         int a = 257;
         byte b = (byte)(a); // 257 % 256 = 1
         System.out.println(b);
+        input.close();
     }
 }
