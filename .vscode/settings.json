@@ -3,5 +3,6 @@
         "Conditionals-Loops/src",
         "1-Intro-To-Java/src",
         "3-Functions/src"
-    ]
+    ],
+    "java.debug.settings.forceBuildBeforeLaunch": false
 }
