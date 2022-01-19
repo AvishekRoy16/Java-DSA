@@ -14,12 +14,12 @@ public class Scoping {
 
         // Scoping in for loops
         for (int i = 0; i < 4; i++) {
-            int num = 90;
-            int a = 10;
+            // int num = 90;
+            // int a = 10;
         }
     }
     static void random(){
-        int num = 54;
+        // int num = 54;
         // System.out.println(a);
     }
 }
