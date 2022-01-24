@@ -1,8 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "Conditionals-Loops/src",
+        "3-Functions/src",
         "1-Intro-To-Java/src",
-        "3-Functions/src"
+        "2-Conditionals-Loops/src"
     ],
     "java.debug.settings.forceBuildBeforeLaunch": false
 }
