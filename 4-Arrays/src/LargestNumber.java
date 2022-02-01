@@ -1,12 +1,18 @@
 import java.util.Scanner;
 
-public class InputArrayFunction {
+public class LargestNumber {
     public static void main(String[] args) {
-        int[] arr = takeInput();    
-        printArray(arr);
+        int[] arr = takeInput();
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]> max) {
+                max = arr[i];
+            }
+        }
+        System.out.println(max);
     }
 
-//  Function to take array input
+    //  Function to take array input
     public static int[] takeInput() {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");
@@ -18,12 +24,5 @@ public class InputArrayFunction {
         s.close();
         return arr;
     }
-
-//  Function to print the Array
-    public static void printArray(int arr[]) {
-        for (int i = 0; i < arr.length; i++) 
-            System.out.print(arr[i]+" ");
-        }
 }
-
 
